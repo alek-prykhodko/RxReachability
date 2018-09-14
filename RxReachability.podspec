@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
 
-  s.source_files = 'RxReachability/Classes/**/*'
+  s.source_files = 'Sources/*'
 
   # s.frameworks = 'UIKit', 'MapKit'
   s.dependency 'ReachabilitySwift', '~> 4'
